@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header-adv">
+            <a href="index.html"><img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"></a>
+            <div>
+                <a href="index.html">Main</a>
+                <a href="images.html">Images</a>
+            </div>
+        </header>
+        <div style="height: 100px; display: flex; align-items: center; border-bottom: 1px solid rgb(230, 230, 230);">
+            <h1 class="advance-text">Advanced Search</h1>
+        </div>
+        <div style="height: 70px; display: flex; align-items: center;">
+            <h2 class="find-text">Find pages with...</h2>
+        </div>
+        <div style="height: 300px; border-bottom: 1px solid rgb(230, 230, 230);">
+            <form class="advance-form" action="https://google.com/search">
+                <div class="grid-container">
+                    <label class="grid-item" for="as_q">all this words:</label>
+                    <input class="grid-item advance-input-text" type="text" name="as_q">
+                    <label class="grid-item" for="as_epq">this exact word of phrase:</label>
+                    <input class="grid-item advance-input-text" type="text" name="as_epq">
+                    <label class="grid-item" for="as_oq">any of these words:</label>
+                    <input class="grid-item advance-input-text" type="text" name="as_oq">
+                    <label class="grid-item" for="as_eq">none of this words:</label>
+                    <input class="grid-item advance-input-text" type="text" name="as_eq">
+                </div>
+                <div class="advance-btn-container">
+                    <input class="advance-btn" type="submit" value="Advanced Search" name="btnK">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

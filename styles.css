@@ -1,0 +1,162 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+
+a {
+    color: black;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container-logo {
+    height: 324px;
+    position: relative;
+}
+
+.container-logo img {
+    position: absolute;
+    text-align: center;
+    bottom: 22px;
+    left: calc(50% - 136px);
+}
+
+.container-logo label {
+    position: absolute;
+    text-align: center;
+    bottom: 22px;
+    left: calc(50% + 80px);
+    color: #4285f4;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.normal-form {
+    text-align: center;
+}
+
+.normal-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    text-align: center;
+}
+
+.normal-btn:hover {
+    border: 1px solid #cecece;
+}
+
+.normal-input-text {
+    font-size: 15px;
+    height: 34px;
+    width: 500px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+}
+
+.normal-input-text:hover {
+    box-shadow: 1px 1px 3px rgb(177, 177, 177);
+    border-color: rgb(216, 216, 216);
+}
+
+.normal-input-text:focus {
+    box-shadow: 1px 1px 5px grey;
+    border-color: rgb(216, 216, 216);
+    outline-width: 0;
+}
+
+.advance-text {
+    color: #d93025;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.find-text {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.header-adv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.advance-btn-container {
+    width: 575px;
+    height: 30px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.advance-btn {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: white;
+    border-radius: 2px;
+    font-size: 11px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.advance-btn:hover {
+    background-color: #498af3;
+}
+
+.advance-form {
+    margin-left: 40px;
+}
+
+form label {
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 160px 400px;
+    gap: 15px;
+}
+
+.grid-item {
+    align-self: center;
+}
+
+.advance-input-text {
+    border: 1px solid #d9d9d9;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.advance-input-text:focus {
+    box-shadow: 1px 1px 5px grey;
+    border-color: #4a8cf7;
+    outline-width: 0;
+}
